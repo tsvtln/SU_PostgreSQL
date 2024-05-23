@@ -1,2 +1,2 @@
 alter table minions_info
-	drop column age;
+	alter column equipped drop not null;
