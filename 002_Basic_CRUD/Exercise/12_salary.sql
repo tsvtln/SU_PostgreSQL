@@ -1,0 +1,1 @@
+select concat(first_name, ' ', last_name) as full_name, job_title, salary from employees where salary in (12500, 14000, 23600, 25000) order by salary desc;
