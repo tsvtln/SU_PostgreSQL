@@ -1,0 +1,1 @@
+update projects set end_date = start_date + interval '5 months' where end_date is null;
