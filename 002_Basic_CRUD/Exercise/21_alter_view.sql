@@ -1,0 +1,1 @@
+alter view view_addresses rename to view_employee_addresses_info;
