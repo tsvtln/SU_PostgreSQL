@@ -1,0 +1,1 @@
+update projects set name = upper(name);
