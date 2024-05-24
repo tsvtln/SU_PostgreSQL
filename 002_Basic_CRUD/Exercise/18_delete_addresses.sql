@@ -1,0 +1,1 @@
+delete from addresses city_id where city_id in (5, 17, 20,30);

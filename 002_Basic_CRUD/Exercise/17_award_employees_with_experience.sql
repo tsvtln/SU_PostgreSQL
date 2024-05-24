@@ -1,0 +1,1 @@
+update employees set salary = salary + 1500, job_title = concat('Senior ', job_title) where hire_date between 'January 1, 1998' and 'January 5, 2000';
