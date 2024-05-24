@@ -1,1 +1,1 @@
-create view view_initials as select substring(first_name from 1 for 2) as 'initial', last_name from employees order by last_name;
+CREATE VIEW view_initials AS SELECT SUBSTRING(first_name FROM 1 FOR 2) AS "initial", last_name FROM employees ORDER BY last_name;
