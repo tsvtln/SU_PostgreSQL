@@ -1,0 +1,1 @@
+with updated_books as (update books set title = replace (title, 'The', '***') where title like 'The%' returning *) select title from updated_books where title like '***%' order by id;
