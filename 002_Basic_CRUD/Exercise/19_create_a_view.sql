@@ -1,0 +1,1 @@
+create view view_company_chart as select full_name, job_title from company_chart where manager_id = 184;
