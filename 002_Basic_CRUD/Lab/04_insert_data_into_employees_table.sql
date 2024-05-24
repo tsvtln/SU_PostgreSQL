@@ -1,0 +1,2 @@
+insert into employees(first_name, last_name, job_title, department_id, salary) values ('Samantha', 'Young', 'Housekeeping', 4, 900), ('Roger', 'Palmer', 'Waiter', 3, 928.33);
+select * from employees; -- where id >= 10;
