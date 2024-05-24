@@ -1,0 +1,1 @@
+select id, name, state, area from cities order by id;
