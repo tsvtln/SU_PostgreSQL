@@ -1,0 +1,1 @@
+select substring(description, 5, length(description)) from currencies;
