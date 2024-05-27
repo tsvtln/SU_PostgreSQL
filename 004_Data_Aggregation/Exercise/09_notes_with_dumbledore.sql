@@ -1,0 +1,1 @@
+select last_name, count(notes) from wizard_deposits where notes like '%Dumbledore%' group by last_name;
