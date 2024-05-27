@@ -1,0 +1,1 @@
+select min(deposit_charge) as minimum_deposit_charge from wizard_deposits;
