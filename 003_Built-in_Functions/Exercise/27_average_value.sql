@@ -1,0 +1,1 @@
+select avg(multiplication) as "average_value" from bookings_calculation;
