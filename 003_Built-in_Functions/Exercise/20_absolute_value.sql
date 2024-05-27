@@ -1,0 +1,1 @@
+select longitude, abs(longitude) from apartments;
