@@ -1,0 +1,1 @@
+select continent_name, rtrim(continent_name) from continents;
