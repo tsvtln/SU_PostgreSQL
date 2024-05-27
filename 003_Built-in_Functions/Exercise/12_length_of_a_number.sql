@@ -1,1 +1,0 @@
-select concat(mountains.mountain_range, ' ', peaks.peak_name) as mountain_information, length(concat(mountains.mountain_range, ' ', peaks.peak_name)) as characters_length, bit_length(concat(mountains.mountain_range, ' ', peaks.peak_name)) as bits_of_a_string from mountains join peaks on mountains.id = peaks.mountain_id;
