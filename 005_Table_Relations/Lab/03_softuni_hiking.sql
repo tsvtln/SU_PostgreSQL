@@ -7,4 +7,3 @@ from
     routes
 join
     campers on routes.leader_id = campers.id;
-     
