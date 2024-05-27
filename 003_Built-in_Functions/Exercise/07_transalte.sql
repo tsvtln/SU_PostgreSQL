@@ -1,0 +1,1 @@
+select capital, translate(capital, 'áãåçéíñóú', 'aaaceinou') as "translated_name" from countries;
