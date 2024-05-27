@@ -1,0 +1,1 @@
+select department_id, sum(salary) from employees group by department_id order by department_id;
