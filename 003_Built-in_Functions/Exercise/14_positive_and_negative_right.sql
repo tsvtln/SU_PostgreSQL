@@ -1,0 +1,1 @@
+select peak_name, right(peak_name, 4) as positive_left, right(peak_name, -4) as negative_left from peaks;
