@@ -13,4 +13,3 @@ set
 		     when hire_date < '2020-03-04' then concat('Mid-', job_title)
 		     else job_title
 		end;
-		
