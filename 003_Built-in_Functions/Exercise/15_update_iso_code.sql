@@ -1,0 +1,1 @@
+update countries set iso_code = upper(left(country_name, 3)) where iso_code is null;
