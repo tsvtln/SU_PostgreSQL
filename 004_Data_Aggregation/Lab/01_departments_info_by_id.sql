@@ -1,0 +1,1 @@
+select department_id, count(id) as "employee_count" from employees group by department_id order by department_id;
