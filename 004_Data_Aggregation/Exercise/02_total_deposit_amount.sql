@@ -1,0 +1,1 @@
+select sum(deposit_amount) as total_amount from wizard_deposits;
