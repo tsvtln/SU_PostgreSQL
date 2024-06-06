@@ -1,5 +1,5 @@
 select
-    pg_terminate_backend(pid)
+    pg_terminate_backend(78582)
 from
     pg_stat_activity
 where datname = 'book_library';
