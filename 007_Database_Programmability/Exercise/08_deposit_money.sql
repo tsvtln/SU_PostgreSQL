@@ -5,7 +5,7 @@ create or replace procedure sp_deposit_money(
 as
     $$
     begin
-        update 
+        update
             accounts
         set
             balance = balance + money_amount
